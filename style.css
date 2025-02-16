@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    gap: 0; 
+}
+
+.card{
+    width: 800px;
+    padding: 40px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.card h1{
+    font-family: Big Shoulders Display;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+.card p{
+    font-family: Lexend Deca;
+    font-weight: 400;
+    display: flex;
+}
+
+.card1{
+    background-color:  hsl(31, 77%, 52%);
+    padding: 30px;
+    
+}
+
+.card2{
+    background-color: hsl(184, 100%, 22%);
+    padding: 30px;
+
+}
+
+.card3{
+    background-color: hsl(179, 100%, 13%);
+    padding: 30px;
+
+}
+
+.btn{
+    margin-top: 50px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    font-family: Lexend Deca;
+    border-radius: 25px;
+    cursor: pointer;
+}
